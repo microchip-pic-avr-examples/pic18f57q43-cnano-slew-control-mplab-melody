@@ -38,7 +38,7 @@
 <img src="images/gpio_setup.png" width="600"/></a>
 ### Hardware User Guide
 
-This example code will show you how to set up the GPIO using Limited Slew on one Port and Maximum Slew on the other.  using the  PIC18F57Q43 curiosity nano.
+This example code will show you how to set up the GPIO using Limited Slew on one Port and Maximum Slew on the other.  using the  PIC18F57Q43 curiosity nano. This Setup is used in the Microchip University class called GPIO this example doesn't use the switches or the LEDs.  This example can be accomplished with just the curiosity nano.
 
 ## Setup
 
