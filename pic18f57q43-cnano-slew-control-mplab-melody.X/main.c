@@ -30,5 +30,11 @@ int main(void)
 
     while(1)
     {
+        RB0_Toggle();
+        if(RB0_LAT == 0) RB4_LAT = 0;
+        if(RB0_LAT == 1) RB4_LAT = 1;
+        RC0_Toggle();
+        if(RC0_LAT == 0) RC4_LAT = 0;
+        if(RC0_LAT == 1) RC4_LAT = 1;
     }    
 }
