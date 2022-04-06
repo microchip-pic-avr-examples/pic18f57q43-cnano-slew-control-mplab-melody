@@ -46,7 +46,6 @@ In the *Project Resources* window click Clock Control.
 
 ![Melody - Clock Control](images/src_clock_control.png)
 
-
 After selecting the "Clock Control" option, a window on the right side of the MPLAB-IDE will appear called *Clock Control Easy View*. Use the Dropdown boxes to select HFINTOSC, 4MHz, and divide by 4 as shown in the figure below.
 
 ![Melody - Clock Control Easy View](images/src_clock_control_easy_view.png)
@@ -62,6 +61,7 @@ In the *Pins Grid View* find RB0, RB4, RC0 and RC4 for the Output pins. Select b
 In the *Project Resources* window selecting the "Pins" option.
 
 ![Melody - Pins ](images/src_pins.png)
+
 After selecting the "Pins" option, a window on the right side of the MPLAB-IDE will appear called "Pins". Slide the bar on the left side to view more of the window.
 De-select the "Analog" checkbox on all pins in this window to disable analog functionality, which is not needed for this example. 
 
