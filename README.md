@@ -46,6 +46,7 @@ In the *Project Resources* window click Clock Control.
 
 ![Melody - Clock Control](images/src_clock_control.png)
 
+
 After selecting the "Clock Control" option, a window on the right side of the MPLAB-IDE will appear called *Clock Control Easy View*. Use the Dropdown boxes to select HFINTOSC, 4MHz, and divide by 4 as shown in the figure below.
 
 ![Melody - Clock Control Easy View](images/src_clock_control_easy_view.png)
