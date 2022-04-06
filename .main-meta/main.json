@@ -4,8 +4,8 @@
     "content": {
         "metaDataVersion": "1.3.0",
         "name": "com.microchip.mcu8.mplabx.project.pic18f57q43-cnano-slew-control-mplab-melody",
-        "version": " ",
-        "displayName": "",
+        "version": "1.0.0",
+        "displayName": "Slew Control Feature of GPIO",
         "projectName": "pic18f57q43-cnano-slew-control-mplab-melody",
         "shortDescription": "This code example demonstrates how to use the Slew Control feature of the GPIO module This code example was created for a Microchip University Class with the name GPIO",
         "ide": {
@@ -20,11 +20,11 @@
         ],
         "dfp": {
             "name": "PIC18F-Q_DFP",
-            "semverRange": "1.13.211"
+            "semverRange": "^1.13.211"
         },
         "configurator": {
             "name": "MCC",
-            "semverRange": "2.0.46"
+            "semverRange": ">=5.1.0"
         },
         "device": {
             "metaDataVersion": "1.0.0",
