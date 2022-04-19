@@ -51,7 +51,6 @@ After selecting the "Clock Control" option, a window on the right side of the MP
 ![Melody - Clock Control Easy View](images/src_clock_control_easy_view.png)
 
 ## Pin Configuration
-```suggestion
 In the *Pins Grid View* find RB0, RB4, RC0 and RC4 for the Output pins. Select by clicking the corresponding padlock symbol as shown in the figure below. Next, find pin RA5 for LED1, and pin RF3 for LED0 and configure them by clicking the corresponding padlock symbol as shown in the figure below.
 
 **Pins Grid View**
@@ -64,7 +63,7 @@ In the *Project Resources* window select the "Pins" option.
 ![Melody - Pins ](images/src_pins.png)
 
 After selecting the "Pins" option, a window on the right side of the MPLAB-IDE will appear called "Pins". Slide the bar on the left side to view more of the window.
-De-select the "Analog" checkbox on all pins in this window to disable analog functionality, which is not needed for this example. 
+De-select the "Analog" checkbox on all pins in this window to disable analog functionality, which is not needed for this example.
 
 ![Melody - De-select analog](images/src_deselect_analog.png)
 
@@ -72,7 +71,7 @@ Use the "Custom Name" field to rename IO_RB0 to RB0, IO_RB4 to RB4, IO_RC0 to RC
 
 ![Melody - Rename output pins](images/src_rename_pins.png)
 ## Slew Control Configuration
-Click the "Slew Rate" checkbox for RC0 and RC4 to configure the maximum slew rate on these pins. 
+Click the "Slew Rate" checkbox for RC0 and RC4 to configure the maximum slew rate on these pins.
 
 ![Melody - Slew Control](images/src_deselect_slew_portc.png)
 
@@ -118,7 +117,7 @@ Once the device has been successfully programmed, the output window should show 
 ## Operation
 
 An oscilloscope can be used to visualize the effects of slew rate control on these pins. The screen shots below show how the resulting oscilloscope plots would look in this example for each pin configuration.
-The first image shows the signal on RB0, and by performing a measurement on the oscilloscope this figure shows that it takes about 29 ns to change states. 
+The first image shows the signal on RB0, and by performing a measurement on the oscilloscope this figure shows that it takes about 29 ns to change states.
 
 The second image shows the signal on RC0, and the oscilloscope measurement shows that the pin takes about 10 ns to change its state. It is worth nothing that there is a slight amount of ringing or oscillation in the signal during the change in state, but this pin still changes states faster than the pin with limited slew rate control.
 
