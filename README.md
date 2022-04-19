@@ -117,7 +117,7 @@ Once the device has been successfully programmed, the output window should show 
 ![Melody - program successful](images/src_program_successful.png)
 ## Operation
 
-If you have an oscilloscope handy you can do the same but I will show the scope plots so you can see visually what to look for.
+An oscilloscope can be used to visualize the effects of slew rate control on these pins. The screen shots below show how the resulting oscilloscope plots would look in this example for each pin configuration.
 The first scope signal is the signal on RB0 this shows the signal and how long it takes to change state it shows 29 ns. The second scope signal is on RC0 and it shows about 10 ns there’s a little bit of ringing in the signal but it still changes faster than the pin with limited slew rate control.
 
 Limited Slew
