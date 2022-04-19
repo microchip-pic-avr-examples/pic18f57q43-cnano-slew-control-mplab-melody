@@ -72,7 +72,7 @@ Use the "Custom Name" field to rename IO_RB0 to RB0, IO_RB4 to RB4, IO_RC0 to RC
 
 ![Melody - Rename output pins](images/src_rename_pins.png)
 ## Slew Control Configuration
-Click the Slew checkbox for RC0 and RC4 to make them Maximum slew. 
+Click the "Slew Rate" checkbox for RC0 and RC4 to configure the maximum slew rate on these pins. 
 
 ![Melody - Slew Control](images/src_deselect_slew_portc.png)
 
