@@ -59,7 +59,7 @@ In the *Pins Grid View* find RB0, RB4, RC0 and RC4 for the Output pins. Select b
 ![Melody - SW1 and SW2 connections](images/src_pin_selection.png)
 
 ## Pin Control Configuration
-In the *Project Resources* window selecting the "Pins" option.
+In the *Project Resources* window select the "Pins" option.
 
 ![Melody - Pins ](images/src_pins.png)
 
