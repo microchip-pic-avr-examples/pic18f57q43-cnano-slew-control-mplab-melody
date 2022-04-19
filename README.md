@@ -126,7 +126,7 @@ Pin RB0 with Limited Slew:
 
 ![Operation - Limited Slew Rate](images/limited_slew_rate.png)
 
-Maximum Slew
+Pin RC0 with Maximum Slew:
 
 ![Operation - Maximum Slew rate](images/maximum_slew_rate.png)
 
