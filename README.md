@@ -38,7 +38,7 @@ This example code will demonstrate how to set up the GPIO using Limited Slew Rat
 
 The first step to setup the hardware for this example is to connect the PIC18F57Q43 Curiosity Nano board to the PC.
 
-Connect RB0 and RC0 to two seperate channels of an oscilloscope.
+Next, connect pin RB0 and pin RC0 directly to two separate channels of an oscilloscope.
 
 MCC with the Melody library was used to implement this example as shown in the following section.
 ## Clock Control Configuration
