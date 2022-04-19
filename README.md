@@ -122,7 +122,7 @@ The first image shows the signal on RB0, and by performing a measurement on the 
 
 The second image shows the signal on RC0, and the oscilloscope measurement shows that the pin takes about 10 ns to change its state. It is worth nothing that there is a slight amount of ringing or oscillation in the signal during the change in state, but this pin still changes states faster than the pin with limited slew rate control.
 
-Limited Slew
+Pin RB0 with Limited Slew:
 
 ![Operation - Limited Slew Rate](images/limited_slew_rate.png)
 
