@@ -32,7 +32,7 @@ This code example shows Slew Control feature of the GPIO module.
 ### Hardware User Guide
 <img src="images/gpio_setup.png" width="600"/></a>
 
-This example code will show you how to set up the GPIO using Limited Slew on one Port and Maximum Slew on the other. Using the  PIC18F57Q43 curiosity nano. This Setup is used in the Microchip University class called GPIO this example doesn't use the switches or the LEDs.  This example can be accomplished with just the curiosity nano and an Oscilloscope to caputure the waveforms.
+This example code will demonstrate how to set up the GPIO using Limited Slew Rate feature on one pin and the Maximum Slew Rate feature on another pin using PIC18F57Q43 Nano Development board. This hardware setup is used in the GPIO Microchip University class, however this example does not use the switches or the LEDs. This example can be reproduced using just the PIC18F57Q43 Nano Development and an oscilloscope to view and capture the resulting waveforms.
 
 ## Setup
 
