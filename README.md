@@ -51,7 +51,8 @@ After selecting the "Clock Control" option, a window on the right side of the MP
 ![Melody - Clock Control Easy View](images/src_clock_control_easy_view.png)
 
 ## Pin Configuration
-In the *Pins Grid View* find RB0, RB4, RC0 and RC4 for the Output pins. Select by clicking the corresponding padlock symbol. find RA5 for LED1, and RF3 for LED0 for imput selection by clicking the corresponding padlock symbol
+```suggestion
+In the *Pins Grid View* find RB0, RB4, RC0 and RC4 for the Output pins. Select by clicking the corresponding padlock symbol as shown in the figure below. Next, find pin RA5 for LED1, and pin RF3 for LED0 and configure them by clicking the corresponding padlock symbol as shown in the figure below.
 
 **Pins Grid View**
 
